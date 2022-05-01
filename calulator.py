@@ -127,3 +127,7 @@ def _is_toll_free_vehicle(vehicle):
 
 # Examples
 print(get_toll_fee(Car, [datetime.datetime(2022, 5, 2, 14, 22, 45), datetime.datetime(2022, 5, 3, 15, 50, 22)]))
+"""
+Example input for public holidays
+print(get_toll_fee(Car, [datetime.datetime(2022, 5, 1, 14, 22, 45), datetime.datetime(2022, 5, 1, 15, 50, 22)]))
+"""
